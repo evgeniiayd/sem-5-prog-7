@@ -57,7 +57,7 @@ active_connections: List[Dict[str, Any]] = []
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     client_id = str(uuid.uuid4())  # Генерируем уникальный идентификатор клиента
-    sosiska = 1
+    count = 1
     await websocket.accept()
     active_connections.append({"websocket": websocket, "id": client_id})
 
@@ -65,7 +65,7 @@ async def websocket_endpoint(websocket: WebSocket):
         while True:
             # Отправляем обновления каждые 10 секунд
             time.sleep(10)
-            sosiska += 1
+            count += 1
             currencies = currencies_list.get_currencies()
             cur_time = str(datetime.datetime.now())
             for connection in active_connections:
