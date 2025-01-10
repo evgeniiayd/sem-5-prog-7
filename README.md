@@ -10,3 +10,7 @@
 ![image](https://github.com/user-attachments/assets/55e2330a-ee60-4618-8609-0ba599cf2078)
 
 ![image](https://github.com/user-attachments/assets/6ca7b586-3528-4912-8304-ea5ff0a956e0)
+
+Тесты:
+
+![image](https://github.com/user-attachments/assets/8c8c955f-1874-4f41-9e98-f199385f9d58)
